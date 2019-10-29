@@ -1,66 +1,95 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Affordable and professional web design">
-    <meta name="keywords" content="web design, responsive, affordable, professional">
-    <title>Crowther Codes | About</title>
-    <link rel="stylesheet" href="/home/thomas/Desktop/VSCode/First-web/Tom-Crowther-Web-Design/styles/style.css"
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Crowther</span> Codes</h1>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Affordable and professional web design">
+  <meta name="keywords" content="web design, responsive, affordable, professional">
+  <title>Crowther Codes | About</title>
+  <link rel="stylesheet" href="/styles/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1><span class="highlight">Crowther</span> Codes</h1>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="current"><a href="About.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="travel.html">Travel</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section id="newsletter">
+    <div class="container">
+      <h1>Subscribe to Newsletter</h1>
+      <form id="email-form" method="get" action="submit_successful.html"
+        onsubmit="javascript:return validate('email_form','email');">
+        <input name="email" type="email" placeholder="Enter Email...">
+        <button type="submit" class="button_1">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="main">
+    <div class="container">
+      <article id="main-col">
+        <h1 class="page-title">Employment History</h1>
+        <p>I have gained experience in teaching Computer sciences and have been doing so for KS3 over the past two
+          years, which has led me to be very competent with many key program software on both Macs and PCs along with
+          programming languages in javascript and HTML. I have run the chess club and organised tournaments against
+          other schools and at large events hosted by the Doha Bank Qatar School. I have organised the participation of
+          GEMS Wellington in a Pi Day Maths competition as well and I have accompanied students on a camps international
+          activity trip, working to maintain safety and high behavioural expectations throughout.</p>
+        <p>I have personally selected the schemes of work and written the rotas for the Maths department I work in for
+          the past 3 years, I have placed orders for what books the school will be using progressing in to GCSE and for
+          KS3. I have set up intervention classes during morning form time for students below their target grade and
+          personally selected and directed what material was used to support this intervention. I have aided teachers
+          who have struggled with the behaviour of particular children and offered guidance to those less confident in
+          teaching than myself.</p>
+        <p>In June of 2018 I was promoted to Assessment and Data Manager, my duties included: recording and maintaining
+          of the progress and attainment data across the secondary school; individual target setting from CAT4 (UK’s
+          most widely used entrance test) results; guiding and mentoring teachers in entering and analysing their data.
+          I have overseen report processing to parents and used data to set targets for students and implement
+          interventions for students below target based on their results in key areas. I have used data to forecast the
+          progress and attainment for the whole school by the end of the academic year and give teachers targeted
+          intervention lists for their individual subjects. I feel this to be a particularly useful asset and
+          transferable skill in the role of taxes and accounting as I am no stranger to interpreting and using data to
+          benefit the company I work for.</p>
+        <p>Over a 3-year time period during breaks in College and University study and I spent a large amount of time
+          working for Steve Chestney contract Window Cleaning company showing commitment, hard work and resilience. Mr.
+          Chestney has said he has rarely seen his employees so reliable to show up to work come wind, rain or shine
+          over his long career and admires my level of commitment.</p>
+      </article>
+
+      <aside id="sidebar">
+        <div class="dark">
+          <h3>Professional Skills Development</h3>
+          <p>I like to keep my coding skills on top form and develop new skills through use of multiple web sites
+            including:</p>
+          <ul>
+            <li><a href="https://www.codecademy.com/learn">Codecademy - Crowy92</a></li>
+            <li><a href="https://www.codewars.com/dashboard">Code Wars - Crowy92</a> - Rank 6kyu</li>
+            <li><a href="https://www.freecodecamp.org/">freeCodeCamp - Crowy92</a></li>
+            <li><a href="https://github.com/">GitHub - Crowy92</a></li>
+          </ul>
+          <p>I also like to follow several youtubers when it comes to learning new code I find there are some amazing
+            resources on youtube. My favourite channel is <a href="https://www.youtube.com/user/shiffman">"The Coding
+              Train"</a> which I find to be a fun and entertaining way to learn new skills and consolidate what I
+            already know. I recommend subscribing to anyone wishing to do the same.</p>
+          <p>In my spare time I like to keep my fitness up through Running, Cycling and Tennis.</p>
         </div>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li class="current"><a href="About.html">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="travel.html">Travel</a></li>
-        </ul>
-      </div>
-    </header>
-    
-    <section id="newsletter">
-      <div class="container">
-        <h1>Subscribe to Newsletter</h1>
-        <form id="email-form" method="get" action="submit_successful.html" onsubmit="javascript:return validate('email_form','email');">
-          <input name="email" type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">Subscribe</button>
-        </form>
-      </div>
-    </section>
+      </aside>
+    </div>
+  </section>
+  <footer>
+    <p>Contact: Phone-07305098148 Email-tom.crowther1992@gmail.com</p>
+  </footer>
+</body>
 
-    <section id="main">
-      <div class="container">
-        <article id="main-col">
-          <h1 class="page-title">Employment History</h1>
-          <p>I have gained experience in teaching Computer sciences and have been doing so for KS3 over the past two years, which has led me to be very competent with many key program software on both Macs and PCs along with programming languages in javascript and HTML.  I have run the chess club and organised tournaments against other schools and at large events hosted by the Doha Bank Qatar School.  I have organised the participation of GEMS Wellington in a Pi Day Maths competition as well and I have accompanied students on a camps international activity trip, working to maintain safety and high behavioural expectations throughout.</p>
-          <p>I have personally selected the schemes of work and written the rotas for the Maths department I work in for the past 3 years, I have placed orders for what books the school will be using progressing in to GCSE and for KS3.  I have set up intervention classes during morning form time for students below their target grade and personally selected and directed what material was used to support this intervention.  I have aided teachers who have struggled with the behaviour of particular children and offered guidance to those less confident in teaching than myself.</p>
-          <p>In June of 2018 I was promoted to Assessment and Data Manager, my duties included:  recording and maintaining of the progress and attainment data across the secondary school; individual target setting from CAT4 (UK’s most widely used entrance test) results;  guiding and mentoring teachers in entering and analysing their data.  I have overseen report processing to parents and used data to set targets for students and implement interventions for students below target based on their results in key areas.  I have used data to forecast the progress and attainment for the whole school by the end of the academic year and give teachers targeted intervention lists for their individual subjects.  I feel this to be a particularly useful asset and transferable skill in the role of taxes and accounting as I am no stranger to interpreting and using data to benefit the company I work for.</p>
-          <p>Over a 3-year time period during breaks in College and University study and I spent a large amount of time working for Steve Chestney contract Window Cleaning company showing commitment, hard work and resilience.  Mr. Chestney has said he has rarely seen his employees so reliable to show up to work come wind, rain or shine over his long career and admires my level of commitment.</p>
-        </article>
-
-        <aside id="sidebar">
-            <div class="dark">
-            <h3>Professional Skills Development</h3>
-            <p>I like to keep my coding skills on top form and develop new skills through use of multiple web sites including:</p>
-            <ul>
-              <li><a href="https://www.codecademy.com/learn">Codecademy - Crowy92</a></li>
-              <li><a href="https://www.codewars.com/dashboard">Code Wars - Crowy92</a> - Rank 6kyu</li>
-              <li><a href="https://www.freecodecamp.org/">freeCodeCamp - Crowy92</a></li>
-              <li><a href="https://github.com/">GitHub - Crowy92</a></li>
-            </ul>
-              <p>I also like to follow several youtubers when it comes to learning new code I find there are some amazing resources on youtube.  My favourite channel is <a href="https://www.youtube.com/user/shiffman">"The Coding Train"</a> which I find to be a fun and entertaining way to learn new skills and consolidate what I already know.  I recommend subscribing to anyone wishing to do the same.</p>
-            <p>In my spare time I like to keep my fitness up through Running, Cycling and Tennis.</p>
-            </div>
-        </aside>
-      </div>
-    </section>
-    <footer>
-      <p>Contact: Phone-07305098148 Email-tom.crowther1992@gmail.com</p>
-    </footer>
-  </body>
 </html>
