@@ -153,7 +153,8 @@ ul#services li {
     padding:20px;
     border:gray solid 1px;
     margin-bottom:5px;
-    background:#e6e6e6;
+    color: white;
+    background:#354241;
 
 }
 footer {
@@ -174,6 +175,10 @@ aside#sidebar {
     margin-top:10px;
 }
 
+#sidebar h4 {
+    float:left;
+}
+
 aside#sidebar .quote input, aside#sidebar .quote textarea{
     width: 90%;
     padding:5px;
@@ -191,7 +196,8 @@ button a{
     background-color: rgb(230, 71, 97);
 }
 
-aside a{
+aside a,
+#services a{
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
@@ -199,7 +205,8 @@ aside a{
    
 }
 
-aside a:hover {
+aside a:hover,
+#services a:hover {
     color: #cccccc;
     font-weight: bold;
 }
@@ -238,7 +245,23 @@ textarea {
     max-height: 500px;
 }
 
+.projpics {
+    width: 450px; 
+    height: 270px; 
+    max-width: 700px; 
+    max-height: 500px;
+}
+
 h4 {
+    text-align: center;
+}
+
+#mariestyle p{
+    font-size: 1.45rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.025rem;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
     text-align: center;
 }
 
@@ -265,6 +288,14 @@ h4 {
         margin-left: auto;
         margin-right: auto;
         width: 70%;
+    }
+
+    .projpics { 
+        display: block;
+        height: auto; 
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
 
     header {
