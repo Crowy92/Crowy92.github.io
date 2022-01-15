@@ -28,10 +28,17 @@
   <section id="newsletter">
     <div class="container">
       <h1>Subscribe to Newsletter</h1>
-      <form id="email-form" method="get" action="submit_successful.html"
+      <!---<form id="email-form" method="get" action="submit_successful.html"
         onsubmit="javascript:return validate('email_form','email');">
         <input name="email" type="email" placeholder="Enter Email...">
         <button type="submit" class="button_1">Subscribe</button>
+      </form>--->
+      <form action="https://formsubmit.co/tom.crowther1992@gmail.com" method="POST">
+        <input type="text" name="name" placeholder="name" required>
+        <input type="hidden" name="_subject" value="New submission, woo!">
+        <input type="hidden" name="_next" value="https://crowy92.github.io/submit_successful.html">
+        <input type="email" name="email" placeholder="Email Address" required>
+        <button type="submit">Send</button>
       </form>
     </div>
   </section>
