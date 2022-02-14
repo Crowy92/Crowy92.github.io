@@ -97,6 +97,8 @@ function draw() {
 }
 
 function Asteroid(pos, r) {
+	//checks whether asteroid already has its own position and radius
+	//if so then it uses these, if not it randomly generates
 	if (pos) {
 		this.pos = pos.copy();
 	} else {
@@ -160,6 +162,7 @@ function Asteroid(pos, r) {
 
 function Ship() {
 	this.pos = createVector(width/5, height/5);
+	//r here is the radius of the shape
 	this.r = 15;
 	this.heading = 0;
 	this.vel = (0,0);
